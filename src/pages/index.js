@@ -74,10 +74,10 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
-            link={'/shop'}
+            title={'FlyTransit App'}
+            description={`This app is designed for travellers who need airport transit information`}
+            textLink={'Download now'}
+            link={'/download'}
           />
         </Container>
       </div>
@@ -94,16 +94,16 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about PrestigeFlight'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“PrestigeFlight is a flight reviewer, avgeek and traveller. Subscribe my YouTube channel.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Journal'} subtitle={'We inspect the world, read articles about flights.'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -125,8 +125,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Recommended Products'}
+          subtitle={'PrestigeFlight'}
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
