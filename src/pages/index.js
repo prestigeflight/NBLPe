@@ -114,7 +114,7 @@ const IndexPage = () => {
           image={'/banner3.png'}
           title={'We do Kintsugi'}
           subtitle={
-            'We provide goods and online products for flight travellers. Not just isomorphic, we create products with Kintsugi spirit for a soft power.'
+            'We provide goods and online products for flight travellers. Not just isomorphic copies, we create products with Kintsugi spirit for a soft power.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
