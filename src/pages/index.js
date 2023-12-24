@@ -30,8 +30,8 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
+        title={'PrestigeFlight Official Website'}
+        subtitle={'Discover the website by Prestige Fpight YouTube'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
@@ -39,12 +39,8 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          This is the official website by{' '}
+          <span className={styles.gold}>Prestige Flight YouTube</span>
         </p>
       </div>
 
@@ -59,7 +55,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Products'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -90,8 +86,8 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>PrestigeFlight</Link>
+          <Link to={'/shop'}>PrestigeCities</Link>
         </div>
       </div>
 
@@ -116,9 +112,9 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
-          title={'We are Sustainable'}
+          title={'We do Kintsugi'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'We provide goods and online products for flight travellers. Not just isomorphic, we create products with Kintsugi spirit for a soft power.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
